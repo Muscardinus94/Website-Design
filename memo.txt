@@ -1,0 +1,38 @@
+@media (크기) {
+
+}
+
+크기에는 max-width min-width
+
+max-width 모바일 768px로 하자
+min-width 컴퓨터
+
+a태그 inline 요소
+
+scroll 하는 것
+방법 1
+jquery 사용 파일을 따와야 함
+
+방법 2
+css
+html에
+html {
+  scroll behavior: smooth;
+}
+
+Scroll 먹이고 header에 변화 주기
+$(window).scroll(function() {
+    if($(window).scrollTop() > 50) {
+      $('header').addClass('active');
+    } else {
+      $('header').removeClass('active');
+    }
+  });
+
+  h태그( h1,h2, ....)
+  margin이 기본적으로 있다
+
+  input 태그 클릭 시 찐해지는 것 방지
+  outline: none;
+
+같이 position 속성이 있으면 relative가 absolute보다 우선순위 위
