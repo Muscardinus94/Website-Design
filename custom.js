@@ -34,7 +34,7 @@ $(function() {
     speed: 500,
     fade: true,
     autoplay: true,
-    autoplaySpeed:1000,
+    autoplaySpeed:500,
     cssEase: 'linear',
   });
 })
