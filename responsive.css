@@ -1,5 +1,4 @@
-/* media (max-width: 768px) */
-@media screen and (min-resolution: 141dpi){
+@media (max-width: 768px) {
   html {
     scroll-behavior: smooth;
   }
