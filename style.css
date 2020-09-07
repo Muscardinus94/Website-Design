@@ -307,7 +307,7 @@ header {
 /* #######################Section: project ####################### */
 .project-inner {
   height: 100%;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   overflow: hidden;
   width: 100%;
 }
@@ -845,3 +845,287 @@ hr.bar {
   line-height: 1.5em;
 }
 
+/* #######################Subpage: Hiring ####################### */
+
+.modal {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+  /* border: 1px solid #000; */
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 1000;
+}
+
+.header-inner {
+  /* border: 1px solid red; */
+  width: 95%;
+  margin: auto;
+  height: 90px;
+  line-height: 90px;
+  /* border-bottom: 1px solid #000; */
+}
+
+.modal-display {
+  font-size: 16px;
+}
+
+.hiring-main {
+  height: 600px;
+  /* border: 1px solid #000; */
+  position: relative;
+}
+
+.hiring-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hiring-heading span{
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+}
+
+.hiring-heading span:before,
+.hiring-heading span:after {
+  content: '';
+  height: 2px;
+  background-color: #000000;
+  width: 50px;
+  position: absolute;
+  top: 50%;
+}
+
+.hiring-heading span:before {
+  right: 120%;
+}
+
+.hiring-heading span:after {
+  left: 120%;
+}
+
+.hiring-heading h1{
+  font-size: 100px;
+  font-weight: 200;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.hiring-info {
+  /* border: 1px solid #000; */
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.hiring-info > div {
+  float: left;
+  width: 50%;
+  height: 600px;
+  /* border: 1px solid #000; */
+}
+
+.center-parent {
+  position: relative;
+}
+
+.center-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border: 1px solid #000; */
+  width: 70%;
+}
+
+.center-child h2 {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.center-child p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.hiring-slogan {
+  padding: 100px 0;
+}
+
+.hiring-slogan p {
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+
+.hiring-slogan p:before {
+  content: ',,';
+  font-family: 'Overpass', sans-serif;
+  font-size: 200px;
+  position: absolute;
+  color: #dddddd;
+  transform: rotate(180deg);
+  top: -82px;
+  left: -35px;
+}
+
+.hiring-contact {
+  /* border: 1px solid #000; */
+  line-height: 2em;
+}
+
+.hiring-contact ul {
+  display: inline-block;
+  width: 49%;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.hiring-contact ul li:first-child {
+  font-weight: 400;
+}
+
+.hiring-contact ul li:last-child {
+  color: dodgerblue;
+}
+
+.sns {}
+
+.sns a {
+  font-size: 15px;
+  color: black;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  text-align: center;
+  margin: 2px;
+  position: relative;
+  transition: .5s;
+}
+
+.sns a:before {
+  content: '';
+  transition: .5s;
+  border-radius: 50%;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  z-index: -1000;
+  left: 50%;
+  transform: translateX(-50%) scale(0);
+}
+
+.sns a:hover {
+  color: white;
+}
+
+.sns a:hover:before {
+  transform: translateX(-50%) scale(1);
+}
+
+.sns a:nth-child(1):before {
+  background-color: #3b5999;
+}
+
+.sns a:nth-child(2):before {
+  background-color: #55acee;
+}
+
+.sns a:nth-child(3):before {
+  background-color: #0077B5;
+}
+
+.sns a:nth-child(4):before {
+  background-color: #e4405f;
+}
+
+.sns a:nth-child(5):before {
+  background-color: #cd201f;
+}
+
+.sns a:nth-child(6):before {
+  background-color: #0084ff;
+}
+
+/* #######################Subpage: Project #0x  ####################### */
+
+.project-detail .hiring-heading span:before,
+.project-detail .hiring-heading span:after {
+  background-color: #ffffff;
+}
+
+.hiring-main.project-main1,
+.hiring-main.project-main2,
+.hiring-main.project-main3 {
+  height: 100vh;
+}
+
+.hiring-main.project-main1 {
+  background: url(images/project-main-01-01.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.hiring-main.project-main2 {
+  background: url(images/project-main-02-01.jpg) no-repeat center center;
+  background-size: cover;
+
+}
+
+.hiring-main.project-main3 {
+  background: url(images/project-main-02-01.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.hiring-main.project-main1 .hiring-heading,
+.hiring-main.project-main2 .hiring-heading,
+.hiring-main.project-main3 .hiring-heading {
+  color: #ffffff;
+  width: 100%;
+  animation: slidedown 1s linear;
+  animation-fill-mode: both;
+}
+
+.hiring-main.project-main1 .hiring-heading,
+.hiring-main.project-main2 .hiring-heading,
+.hiring-main.project-main3 .hiring-heading {
+  font-size: 70px;
+}
+
+.project-detail .hiring-info {
+  margin-bottom: 0;
+}
+
+.project-detail .hiring-slogan p:before {
+  left: -100px;
+}
+
+.photo.project-info {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 120px;
+}
+
+@keyframes slidedown {
+  0% {
+    opacity: 0;
+    margin-top: -50px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
