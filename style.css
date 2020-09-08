@@ -884,6 +884,7 @@ hr.bar {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  animation: slidedown 1s linear both;
 }
 
 .hiring-heading span{
@@ -1086,7 +1087,7 @@ hr.bar {
 }
 
 .hiring-main.project-main3 {
-  background: url(images/project-main-02-01.jpg) no-repeat center center;
+  background: url(images/project-main-03-01.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -1128,4 +1129,49 @@ hr.bar {
     opacity: 1;
     margin-top: 0;
   }
+}
+
+/* ####################### Featherlight Custom CSS  ####################### */
+
+.featherlight .featherlight-content {
+  position: relative;
+  text-align: left;
+  vertical-align: middle;
+  display: inline-block;
+  overflow: auto;
+  padding: 0;
+  border-bottom: 25px solid transparent;
+  margin-left: 0%;
+  margin-right: 5%;
+  max-height: 100%;
+  background: #fff;
+  cursor: auto;
+  white-space: normal;
+  width: 100%;
+  height: 100%;
+}
+
+.featherlight iframe {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+.featherlight .featherlight-close-icon {
+  position: absolute;
+  z-index: 9999;
+  top: 30px;
+  right: 70px;
+  line-height: 25px;
+  width: 25px;
+  cursor: pointer;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.3);
+  color: #000;
+  border: none;
+  padding: 0;
+  font-size: 40px;
+  outline: none;
 }
