@@ -263,7 +263,7 @@ header {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 100px;
+  margin-left: 100px;
 }
 
 .item {
@@ -450,6 +450,7 @@ input[id=tab3]:checked ~ .tabs {
 
 .detail div span {
   font-size: 36px;
+  font-weight: bold;
   display: block;
   color: black;
   margin-bottom: 10px;
@@ -658,6 +659,7 @@ hr.bar {
 .location-inner {
   background: url(images/background-location.jpg) no-repeat center center;
   height: 100%;
+  position: relative;
 }
 
 .location-inner:before {
@@ -865,7 +867,7 @@ hr.bar {
   margin: auto;
   height: 90px;
   line-height: 90px;
-  /* border-bottom: 1px solid #000; */
+  border-bottom: 2px solid #bbb;
 }
 
 .modal-display {
@@ -911,7 +913,7 @@ hr.bar {
   left: 120%;
 }
 
-.hiring-heading h1{
+.hiring-heading h1 {
   font-size: 100px;
   font-weight: 200;
   margin: 0;

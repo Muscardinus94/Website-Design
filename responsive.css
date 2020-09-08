@@ -136,4 +136,272 @@
     right: 20px;
     bottom: 20px;
   }
+
+  .cd-vertical-nav {
+    display: none;
+  }
+
+  /* #######################Section: home ####################### */
+
+  .home-inner {
+    height: 100vh;
+  }
+
+  .welcome-text {
+    transform: translate(-50%, -50%) scale(0.7);
+    /* border: 1px solid #000; */
+    width: 100%;
+  }
+
+  .home-heading {
+    left: 10px;
+    top: 300px;
+    transform: translateY(-50%) scale(0.7);
+  }
+
+  .home-heading span {
+    font-size: 60px;
+  }
+
+  /* #######################Section: about ####################### */
+  .about-inner {
+    height: auto;
+    border: 1px solid #000;
+    padding: 10px;
+    background: #0dace3;
+  }
+
+  .about-items {
+    width: 100%;
+    position: static;
+    margin-left: 0;
+    transform: none;
+    text-align: center;
+    /* top: 0; */
+  }
+
+  .item img {
+    float: none;
+  }
+
+  /* #######################Section: plan ####################### */
+
+  .plan-inner {
+    height: auto;
+    padding: 20px;
+  }
+
+  .plan-feature {
+    width: 100%;
+    position: static;
+    transform: none;
+    /* border: 1px solid #fff; */
+  }
+
+  .plan-feature > div {
+    height: auto;
+  }
+
+  .plan-info {
+    margin-bottom: 40px;
+  }
+
+  .plan-info > div {
+    float: none;
+    width: 100%;
+  }
+
+  .plan-photo img {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #fff; */
+  }
+
+  .plan-heading {
+    padding-right: 0;
+    /* text-align: center; */
+  }
+
+  /* #######################Section: awards winner####################### */
+  .awards-inner {
+    height: auto;
+  }
+
+  .awards-inner > div{
+    font: none;
+    width: 100%;
+  }
+
+  .about-heading,
+  .victory-jump img {
+    padding: 40px 20px;
+    position: static;
+    transform: none;
+  }
+
+  .about-heading {
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  .victory-jump {
+    text-align: center;
+  }
+
+  /* #######################Section: location ####################### */
+
+  .location-inner {
+    height: auto;
+  }
+
+  .feature {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: none;
+  }
+
+  .feature > div {
+    padding: 20px;
+    float: none;
+    width: 100%;
+  }
+
+/* #######################Section: contact ####################### */
+
+  .contact-inner {
+    height: auto;
+  }
+
+  .contact-feature {
+    width: 100%;
+    position: static;
+    transform: none;
+  }
+
+  .contact-feature > div {
+    float: none;
+    width: 100%;
+    padding: 40px;
+  }
+
+  /* #######################Section: project ####################### */
+
+  .project-inner {
+    height: auto;
+  }
+
+  .tab > div {
+    float: none;
+    width: 100%;
+  }
+
+  .view-project {
+    width: 100%;
+  }
+
+  .project-info {
+    padding: 20px;
+  }
+
+  .project-info p {
+    position: relative;
+  }
+
+  .detail div {
+    font-size: 14px;
+  }
+
+  .btn {
+    /* border: 1px solid red; */
+    width: 100%;
+    bottom: 2px;
+  }
+
+  /* #######################Subpage: Hiring ####################### */
+
+  .hiring-main {
+    height: 300px;
+  }
+
+  .hiring-heading {
+    width: 100%;
+    top: 65%;
+  }
+
+  .hiring-heading h1 {
+    font-size: 32px;
+    margin-top: 70px;
+    margin-top: 20px;
+  }
+
+  .hiring-info {
+    padding: 20px;
+  }
+
+  .hiring-info > div {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .center-child {
+    position: static;
+    width: 100%;
+    transform: none;
+  }
+
+  .center-child h2 {
+    font-size: 26px;
+  }
+
+  .hiring-slogan {
+    padding: 50px 0;
+  }
+
+  .hiring-slogan p {
+    font-size: 26px;
+  }
+
+  .hiring-slogan p:before {
+    top: -120px;
+  }
+
+  .hiring-contact ul {
+    display: block;
+    width: 100%;
+  }
+
+  /* ####################### Featherlight Custom CSS  ####################### */
+
+  .featherlight .featherlight-close-icon {
+    font-size: 25px;
+    right: 30px;
+    top: 35px;
+  }
+
+  /* #######################Subpage: Project #0x  ####################### */
+
+  .hiring-main.project-main1,
+  .hiring-main.project-main2,
+  .hiring-main.project-main3 {
+    height: 70vh;
+  }
+  
+  .hiring-main.project-main1 .hiring-heading,
+  .hiring-main.project-main2 .hiring-heading,
+  .hiring-main.project-main3 .hiring-heading {
+    font-size: 40px;
+  }
+
+  .photo.project-info {
+    padding-top: 0;
+    /* border: 1px solid #000; */
+  }
+
+  .project-detail .hiring-slogan p:before {
+    left: -50px;
+  }
+
 }
